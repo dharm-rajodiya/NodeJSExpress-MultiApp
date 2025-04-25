@@ -22,5 +22,6 @@ jobs:
 
     # Runs Set Of Multiple Commands using Shell
     - name: Run Multiple Line Commands
-      run: echo Hello World! Second Time
-           echo test and deploy code
+      run: 
+        echo Hello World! Second Time
+        echo test and deploy code
