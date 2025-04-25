@@ -18,9 +18,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Run a one-line script
-    - run: echo Hello World!
+      run: echo Hello World!
 
     # Runs Set Of Multiple Commands using Shell
     - name: Run Multiple Line Commands
-    - run: echo Hello World! Second Time
-    - run: echo test and deploy code
+      run: echo Hello World! Second Time
+      run: echo test and deploy code
